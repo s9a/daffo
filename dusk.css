@@ -1,0 +1,31 @@
+/*
+daffo dusk
+s9a.page/daffo
+UPL-1.0
+*/
+
+.daffo {
+  background-color: #528;
+  color: gold;
+}
+
+.daffo ::selection {
+  background-color: gold;
+  color: #325;
+}
+
+.daffo :any-link {
+  color: inherit;
+  background-color: transparent;
+}
+
+.daffo mark {
+  background-color: gold;
+  color: #528;
+}
+
+.daffo :focus {
+  outline-color: orange;
+  background-color: gold;
+  color: #325;
+}
